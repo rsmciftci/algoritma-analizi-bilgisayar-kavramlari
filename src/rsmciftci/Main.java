@@ -1,6 +1,6 @@
 package rsmciftci;
 
-import rsmciftci.sorting.SelectionSort;
+import rsmciftci.sorting.InsertionSort;
 
 public class Main {
 
@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Before Sorting");
         for (int j : arr) System.out.print(" " + j);
 
-        SelectionSort.sort(arr);
+        InsertionSort.sort(arr);
         System.out.println("\nAfterSorting");
         for (int j : arr) System.out.print(" " + j);
 
